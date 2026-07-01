@@ -268,7 +268,7 @@ if page == "🏠 Beranda":
     st.divider()
     st.subheader("👥 Anggota Kelompok 1")
     cols = st.columns(4)
-    members = ["Enjing Suandi", "Galang Rivaldi", "Aldafa Rayhandika", "Anggota 1"]
+    members = ["Reva Natama", "Enjang Suandi", "Galang Rivaldi", "Aldafa Rayhandika"]
     for col, name in zip(cols, members):
         col.markdown(f"**{name}**")
 
